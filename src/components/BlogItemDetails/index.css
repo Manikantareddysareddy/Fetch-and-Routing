@@ -1,0 +1,88 @@
+/* Write your CSS code here */
+@media (max-width: 767px) {
+  .blog-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-Name1 {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .author-details {
+    display: flex;
+    flex-direction: row;
+  }
+  .Avatar-image {
+    height: 6vh;
+    width: 10vw;
+    align-self: center;
+    border-radius: 100px;
+  }
+  .Author-name {
+    color: #2f4f4f;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13;
+    margin-left: 10px;
+  }
+  .image1 {
+    height: 30vh;
+    width: 60vw;
+  }
+  .blog-content {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2f4f4f;
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .blog-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .title-Name1 {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 23px;
+    align-self: center;
+    font-weight: bold;
+  }
+  .author-details {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+  .Avatar-image {
+    height: 6vh;
+    width: 3vw;
+    align-self: center;
+    border-radius: 100px;
+  }
+  .Author-name {
+    color: #2f4f4f;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13;
+    margin-left: 10px;
+  }
+  .image1 {
+    height: 40vh;
+
+    width: 35vw;
+    align-self: center;
+  }
+  .blog-content {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2f4f4f;
+  }
+}
